@@ -1,8 +1,26 @@
 aid: packmatic
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/packmatic.png
 name: Packmatic
-description: 'Packmatic is a company surfaced as a portfolio company of eqt-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: packaging. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Packmatic is a Berlin-based packaging procurement platform that helps
+  companies source flexible and paper-based packaging at lower cost. It combines a
+  proprietary supplier database and a smart-matching engine spanning 350+ suppliers
+  with expert packaging engineers and a cloud-based platform for managing quotes,
+  orders, and supplier communication. Customers pay no upfront fees; Packmatic earns
+  a commission when they source through its network, reporting average savings around
+  16% and reducing supplier search time by roughly 70%. Packmatic does not currently
+  publish a public developer API, SDKs, or developer documentation; this profile captures
+  its company identity and domain-security posture for the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/packmatic/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Packaging
+- Procurement
+- Supply Chain
+- Sourcing
+- Marketplace
+- Germany
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,18 @@ maintainers:
 common:
 - type: Website
   url: https://www.packmatic.io/
+- type: SignUp
+  url: https://www.packmatic.io/start
+- type: Support
+  url: https://www.packmatic.io/contact
+- type: PrivacyPolicy
+  url: https://www.packmatic.io/privacy
+- type: TermsOfService
+  url: https://www.packmatic.io/delivery-terms
+- type: DomainSecurity
+  url: security/packmatic-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
